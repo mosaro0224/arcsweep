@@ -1,0 +1,24 @@
+{
+  "name": "arcsweep",
+  "version": "0.1.0",
+  "description": "Arc Testnet wallet dust cleaner and quote aggregator.",
+  "type": "module",
+  "main": "./src/arcSweep.js",
+  "exports": {
+    ".": "./src/arcSweep.js",
+    "./adapters": "./src/adapters/mockArcDexes.js",
+    "./tokens": "./src/tokens.js"
+  },
+  "scripts": {
+    "start": "node ./server.mjs",
+    "test": "node ./tests/arcSweep.test.js"
+  },
+  "keywords": [
+    "arc",
+    "dex",
+    "dust",
+    "wallet",
+    "aggregator"
+  ],
+  "license": "MIT"
+}
