@@ -74,7 +74,6 @@ button {
   margin-right: auto;
 }
 
-.brand-mark,
 .token-icon {
   display: grid;
   place-items: center;
@@ -87,6 +86,10 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 8px;
+  object-fit: cover;
+  background: #020409;
+  border: 1px solid rgba(126, 158, 255, 0.6);
+  box-shadow: 0 0 18px rgba(83, 121, 255, 0.24);
 }
 
 .brand small,

@@ -1,5 +1,7 @@
 # ArcSweep
 
+<img src="./assets/arcsweep-logo.png" alt="ArcSweep logo" width="240">
+
 ArcSweep is a single-page Arc Testnet wallet dust cleaner. It scans low-value token balances, compares quote adapters, and prepares selected swaps into USDC.
 
 ## Run
